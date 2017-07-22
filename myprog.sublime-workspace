@@ -1,0 +1,258 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "{\n    // \"git\": \"/usr/bin/git\",\n    \"prefix\": \"\"\n}\n",
+			"file": "/home/vadimg/.config/sublime-text-3/Packages/GitStatusBar/GitStatusBar.sublime-settings",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 51,
+				"line_ending": "Unix",
+				"read_only": true,
+				"scratch": true
+			}
+		},
+		{
+			"contents": "{\n\t// save before running commands\n\t\"save_first\": true\n\n\t// if present, use this command instead of plain \"git\"\n\t// e.g. \"/Users/kemayo/bin/git\" or \"C:\\bin\\git.exe\"\n\t,\"git_command\": false\n\n\t// if present, use this command instead of plain \"gitk\"\n\t// e.g. \"/Users/kemayo/bin/gitk\" or \"C:\\bin\\gitk.exe\"\n\t,\"gitk_command\": false\n\n\t// point this the installation location of git-flow\n\t,\"git_flow_command\": \"/usr/local/bin/git-flow\"\n\n\t// use the panel for diff output, rather than a new scratch window (new tab)\n\t,\"diff_panel\": false\n\n\t// If you'd rather have your status command open files instead of show you a\n\t// diff, set this to true.  You can still do `Git: Status` followed by\n\t// 'Git: Diff Current File' to get a file diff\n\t,\"status_opens_file\": false\n\n\t// Use --verbose flag for commit messages\n\t,\"verbose_commits\": true\n\n\t// How many commit messages to store in the history. Set to 0 to disable.\n\t,\"history_size\": 5\n\n\t// Show git flow commands\n\t,\"flow\": false\n\t\n\t// By default git flow release and hotfix will tag a version. Set to true to disable.\n\t,\"flow-notag\": false\n\n\t// Annotations default to being on for all files. Can be slow in some cases.\n\t,\"annotations\": false\n\n\t// statusbar\n\t,\"statusbar_branch\": true\n\t// Symbols for quick git status in status bar\n\t,\"statusbar_status\": true\n\t,\"statusbar_status_symbols\" : {\"modified\": \"≠\", \"added\": \"+\", \"deleted\": \"×\", \"untracked\": \"?\", \"conflicts\": \"‼\", \"renamed\":\"R\", \"copied\":\"C\", \"clean\": \"✓\", \"separator\": \" \"}\n\n\t// e.g. \"Packages/Git/syntax/Git Commit Message.tmLanguage\"\n\t,\"diff_syntax\": \"Packages/Diff/Diff.tmLanguage\"\n\n\t// Rulers for commit view\n\t,\"commit_rulers\": [70]\n\n\t// Watch for gitignore changes?\n\t,\"gitignore_sync\": false\n}\n",
+			"file": "/home/vadimg/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 1696,
+				"line_ending": "Unix",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 92.0,
+		"last_filter": "install ",
+		"selected_items":
+		[
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/vadimg/Dev/cfehome/Try-Django-1_11",
+		"/home/vadimg/Dev/cfehome/Try-Django-1_11/src",
+		"/home/vadimg/Dev/cfehome/Try-Django-1_11/src/myprog"
+	],
+	"file_history":
+	[
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/vadimg/.config/sublime-text-3/Packages/GitStatusBar/GitStatusBar.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 51,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								51,
+								51
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/vadimg/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1696,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1696,
+								1696
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "myprog.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 445.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
